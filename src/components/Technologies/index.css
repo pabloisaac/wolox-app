@@ -1,0 +1,40 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.title {
+  font-size: 2.4em;
+  width: 70%;
+  padding-top: 28%;
+}
+
+.title p{
+  margin: 0 auto;
+}
+
+.center-title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.flexbox-container {
+  width: 100%;
+  display: flex;
+  margin-top: 4%;
+}
+
+.flexbox-container > div {
+  width: 50%;
+  padding: 10px;
+}
+
+.flexbox-container > div:first-child {
+  margin-right: 20px;
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 2% 10%;
+}

@@ -1,0 +1,51 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.title-home {
+    font-size: 44px;
+    width: 100%;
+    padding-top: 27%;
+    padding-left: 15%;
+}
+
+.title-home p {
+  margin: 0 auto;
+}
+
+.wolox-color {
+  color: #a3cc3a;
+}
+
+.center-title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.flexbox-container-home {
+  width: 100%;
+  display: flex;
+}
+
+.flexbox-container-home > div {
+  width: 50%;
+}
+
+.flexbox-container-home > div:first-child {
+  margin-right: 20px;
+}
+
+.img-hero {
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 2% 10%;
+}

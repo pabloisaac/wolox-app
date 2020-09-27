@@ -1,0 +1,97 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+.title-social {
+  font-size: 44px;
+}
+
+.title-social p {
+  margin: 0 auto;
+}
+
+.title-woloxers{
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.title-social-twitter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-social-twitter p {
+  margin: 0 auto;
+}
+
+.background-content {
+  background-color: #f2f5fa;
+}
+
+.green-color {
+  color: #a3cc3a;
+}
+
+.blue-color {
+  color: #02a7e7;
+}
+
+.center-title-social {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.flexbox-container-social {
+  width: 100%;
+  display: flex;
+  padding: 5% 2%;
+}
+
+.flexbox-container-social > div {
+  width: 50%;
+}
+
+.img-social {
+  height: 45vh;
+  background-size: cover;
+  background-image: url(../../assets/img_woloxer.png);
+}
+.flexbox-icon {
+  width: 100%;
+  color: white;
+margin-bottom: 1%;
+}
+
+.flexbox-icon p {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.icon-twitter {
+  color: white;
+  width: 7%;
+}
+
+.center-icon-text{
+  display: flex;
+  margin-left: 40%;
+}
+
+.button-social {
+  border-radius: 30px;
+  padding: 15px 95px;
+  border: 2px solid #00a7e8;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}

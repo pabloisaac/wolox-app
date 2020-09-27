@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import PrivateRoute from './components/PrivateRoute';
+import { AppContext } from './storage/reducers';
+import { setLogin } from './storage/actions';
+import Landing from './pages/Landing';
+import Login from './pages/Login';
+import ListTechnologies from './pages/ListTechnologies';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  const { state, dispatch  } = useContext(AppContext);
+
+  useEffect(() => {
+    localStorage.clear()
+    let checkLogin = localStorage.getItem('remember_password');
+    if(!checkLogin)
+      dispatch(setLogin(true))
+    else
+     dispatch(setLogin(false))
+  }, [])
+
+    return (
+      <Router>
+          <Switch>
+              <Route exact path="/" component={Landing} />
+              <PrivateRoute exact path='/login' component={Login} redirectTo="/list"/>
+              <PrivateRoute exact path='/list' component={ListTechnologies} redirectTo="/login"/>
+          </Switch>
+      </Router>
+
+    );
 }
 
 export default App;
+
+{/* <Fragment>
+{!state.login && <Login />}
+{state.login && <Landing />}
+</Fragment> */}
