@@ -77,7 +77,7 @@ const NavBar = () => {
               </li>
               {!state.login && (
                 <li>
-                  <a href="/login">Login</a>
+                  <a href="/login" className="button">Login</a>
                 </li>
               )}
             </ul>

@@ -25,6 +25,12 @@
   margin-top: 3%;
 }
 
+.btn-content > a:hover {
+  color: #00a7e8;
+  background-color: white;
+  border: 1px solid #00a7e8;
+}
+
 .title-footer-text {
   margin-top: 10%;
   font-size: 20px;
@@ -33,6 +39,7 @@
 .button-footer {
   border-radius: 30px;
   padding: 15px 60px;
+  border: 1px solid #00a7e8;
   background-color: #00a7e8;
   color: white;
   text-align: center;
@@ -41,3 +48,4 @@
   font-size: 20px;
   font-weight: bold;
 }
+

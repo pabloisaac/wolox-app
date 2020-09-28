@@ -19,14 +19,10 @@ const Social = () => {
               <p> @Wolox </p>
             </div>
           </div>
-          <div>
-            <ul className="nav-li">
-              <li>
-                <a href="https://twitter.com/Wolox" className="button-social">
-                  Siguenos
-                </a>
-              </li>
-            </ul>
+          <div className="hover-btn">
+            <a href="https://twitter.com/Wolox" className="button-social">
+              Siguenos
+            </a>
           </div>
         </div>
       </div>
