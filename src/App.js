@@ -12,11 +12,12 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Landing} />
         <Route exact path="/login" component={Login} />
-        <PrivateRoute
+        <Route exact path="/list" component={ListTechnologies} />
+        {/* <PrivateRoute
           exact
           path="/list"
           component={ListTechnologies}
-        />
+        /> */}
       </Switch>
     </Router>
   );

@@ -19,7 +19,7 @@ const Benefits = () => {
       <div className="benefits-container">
         <div className="benefits-details">
           <div className="icon-center">
-            <img src={IcHour} className="img-animation-benefits" />
+            <img src={IcHour} className="img-animation-benefits" alt="icHour"/>
           </div>
           <div className="title-center">
             <p>Flexibilidad</p>
@@ -28,7 +28,7 @@ const Benefits = () => {
         </div>
         <div className="benefits-details">
           <div className="icon-center">
-            <img src={IcHomeOffice} className="img-animation-benefits" />
+            <img src={IcHomeOffice} className="img-animation-benefits" alt="icHomeOffice"/>
           </div>
           <div className="title-center">
             <p>Home Office</p>
@@ -36,7 +36,7 @@ const Benefits = () => {
         </div>
         <div className="benefits-details">
           <div className="icon-center">
-            <img src={IcWorkshops} className="img-animation-benefits" />
+            <img src={IcWorkshops} className="img-animation-benefits" alt="icWorkshops"/>
           </div>
           <div className="title-center">
             <p>Capacitaciones</p>
@@ -45,7 +45,7 @@ const Benefits = () => {
         </div>
         <div className="benefits-details">
           <div className="icon-center">
-            <img src={IcDrinkSnacks} className="img-animation-benefits" />
+            <img src={IcDrinkSnacks} className="img-animation-benefits" alt="icDrinkSnacks"/>
           </div>
           <div className="title-center">
             <p>Snacks, frutas</p>
@@ -54,7 +54,7 @@ const Benefits = () => {
         </div>
         <div className="benefits-details">
           <div className="icon-center">
-            <img src={IcLaptop} className="img-animation-benefits" />
+            <img src={IcLaptop} className="img-animation-benefits" alt="icLaptop"/>
           </div>
           <div className="title-center">
             <p>Semana</p>
@@ -63,7 +63,7 @@ const Benefits = () => {
         </div>
         <div className="benefits-details">
           <div className="icon-center">
-            <img src={IcBrain} className="img-animation-benefits" />
+            <img src={IcBrain} className="img-animation-benefits" alt="icBrain"/>
           </div>
           <div className="title-center">
             <p>Trabajar</p>

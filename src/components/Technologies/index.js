@@ -14,7 +14,7 @@ const Technologies = () => {
         </div>
       </div>
       <div className="img-center">
-        <img src={ImgTechnologies} />
+        <img src={ImgTechnologies} alt="icTechnologies"/>
       </div>
     </div>
   );

@@ -3,7 +3,8 @@ import { createContext } from "react";
 export const AppContext = createContext({});
 
 export const initialState = {
-  data: [],
+  list_technologies: [],
+  list_search: [],
   login: false,
   _token: "",
   redirectLogin: false,
@@ -13,9 +14,15 @@ export const initialState = {
 export const reducer = (state = {}, action) => {
   let response;
   switch (action.type) {
-    case actionTypes.SET_DATA:
+    case actionTypes.SET_DATA_TECHNOLOGIES:
       response = Object.assign({}, state, {
-        data: action.data
+        list_technologies: action.data
+      });
+      return response;
+      
+    case actionTypes.SET_DATA_SEARCH:
+      response = Object.assign({}, state, {
+        list_search: action.data
       });
       return response;
 

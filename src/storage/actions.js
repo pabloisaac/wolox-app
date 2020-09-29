@@ -1,13 +1,19 @@
 export const actionTypes = {
-    SET_DATA: "SET_DATA",
+    SET_DATA_TECHNOLOGIES: "SET_DATA_TECHNOLOGIES",
+    SET_DATA_SEARCH: "SET_DATA_SEARCH",
     SET_LOGIN: "SET_LOGIN",
     SET_TOKEN: "SET_TOKEN",
     SET_REDIRECT_LOGIN:"SET_REDIRECT_LOGIN",
     SET_REDIRECT_LIST:"SET_REDIRECT_LIST",
 }
 
-export const setData = data => ({
-    type: actionTypes.SET_DATA,
+export const setDataTechnologies = data => ({
+    type: actionTypes.SET_DATA_TECHNOLOGIES,
+    data 
+});
+
+export const setDataSearch = data => ({
+    type: actionTypes.SET_DATA_SEARCH,
     data 
 });
 

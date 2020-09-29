@@ -20,3 +20,18 @@ export const postLogin = async (email, password) => {
     console.log(error);
   }
 };
+
+export const getData = async () => {
+  try {
+    const options = {
+      method: "GET",
+      headers: { "content-type": "application/json" },
+      url: `${urlBase}/techs`
+    };
+
+    let response = await axios(options);
+    return response.data;
+  } catch (error) {
+    console.log(error);
+  }
+};

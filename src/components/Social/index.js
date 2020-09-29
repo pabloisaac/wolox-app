@@ -15,7 +15,7 @@ const Social = () => {
           </div>
           <div className="flexbox-icon">
             <div className="center-icon-text">
-              <img src={IconTwitter} className="icon-twitter" />
+              <img src={IconTwitter} className="icon-twitter" alt="icTwitter"/>
               <p> @Wolox </p>
             </div>
           </div>
