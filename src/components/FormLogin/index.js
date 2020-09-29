@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import { AppContext } from "../../storage/reducers";
-import { setLogin, setToken, setRedirectLogin } from "../../storage/actions";
+import { setRedirectLogin, setRedirectList } from "../../storage/actions";
 import { postLogin } from "../../services/http";
 import { validateEmail, validatePassword } from "../../utils/utils";
 import Text from "../Text";
@@ -18,8 +18,10 @@ const Login = () => {
   const [errorPassword, setErrorPassword] = useState(false);
 
   useEffect(() => {
+    dispatch(setRedirectList(false));
     let storage = localStorage.getItem("user_data");
-    if (storage !== null || state.login) dispatch(setRedirectLogin(true));
+    let token = sessionStorage.getItem("token");
+    if (storage !== null || token) dispatch(setRedirectLogin(true));
     else dispatch(setRedirectLogin(false));
   }, []);
 
@@ -29,8 +31,8 @@ const Login = () => {
     if (!errorEmail && !errorPassword) {
       let response = await postLogin(email, password);
       if (check) localStorage.setItem("user_data", { email, password });
-      dispatch(setToken(response.token));
-      dispatch(setLogin(true));
+
+      sessionStorage.setItem("token", response.token);
       dispatch(setRedirectLogin(true));
     }
   };

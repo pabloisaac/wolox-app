@@ -175,3 +175,13 @@ div.css-content:hover {
   background-color: #00A7E8;
   font-size: 16px;
 }
+
+.sort-table > input:hover{
+  border-radius: 30px;
+  margin-right: 1%;
+  margin-left: 1%;
+  padding: 2px 12px;
+  color: #00A7E8;
+  background-color: white;
+  font-size: 16px;
+}

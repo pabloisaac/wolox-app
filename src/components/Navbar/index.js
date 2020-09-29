@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import { AppContext } from "../../storage/reducers";
+import React from "react";
 import { Link, Element } from "react-scroll";
 import Logo from "../Logo";
 import Home from "../Home";
@@ -11,7 +10,6 @@ import Footer from "../Footer";
 import "./navbar.css";
 
 const NavBar = () => {
-  const { state } = useContext(AppContext);
 
   return (
     <div className="inner">
@@ -19,7 +17,7 @@ const NavBar = () => {
         <div className="navbar">
           <nav>
             <a href="#" className="logo">
-              <Logo width="15%"/>
+              <Logo width="15%" />
             </a>
             <ul className="nav-li">
               <li>
@@ -70,10 +68,11 @@ const NavBar = () => {
                   Requerimientos
                 </Link>
               </li>
-              {console.log(state)}
-              {!state.login && (
+              {(!sessionStorage.getItem("token") && !localStorage.getItem("user_data")) && (
                 <li>
-                  <a href="/login" className="button">Login</a>
+                  <a href="/login" className="button">
+                    Login
+                  </a>
                 </li>
               )}
             </ul>
