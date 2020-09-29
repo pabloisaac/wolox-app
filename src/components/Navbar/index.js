@@ -8,7 +8,7 @@ import Social from "../Social";
 import Benefits from "../Benefits";
 import Requirements from "../Requirements";
 import Footer from "../Footer";
-import "./index.css";
+import "./navbar.css";
 
 const NavBar = () => {
   const { state } = useContext(AppContext);
@@ -19,7 +19,7 @@ const NavBar = () => {
         <div className="navbar">
           <nav>
             <a href="#" className="logo">
-              <Logo />
+              <Logo width="15%"/>
             </a>
             <ul className="nav-li">
               <li>
@@ -70,11 +70,7 @@ const NavBar = () => {
                   Requerimientos
                 </Link>
               </li>
-              <li>
-                <a href="/login" className="button">
-                  Login
-                </a>
-              </li>
+              {console.log(state)}
               {!state.login && (
                 <li>
                   <a href="/login" className="button">Login</a>

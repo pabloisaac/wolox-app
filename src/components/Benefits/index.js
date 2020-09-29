@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./benefits.css";
 import IcHour from "../../assets/Ic_Hour.svg";
 import IcHomeOffice from "../../assets/Ic_HomeOffice.svg";
 import IcWorkshops from "../../assets/Ic_Workshops.svg";

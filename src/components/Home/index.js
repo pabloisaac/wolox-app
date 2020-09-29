@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./home.css";
 import ImgHero from "../../assets/ImgHero/Ic_ilustra_Hero.png";
 
 const Home = () => {

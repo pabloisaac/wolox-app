@@ -1,6 +1,5 @@
 import React from "react";
-import "./index.css";
-import ImgTechnologies from "../../assets/Ic_Tecnologys.svg";
+import "./requirements.css";
 
 const Requirements = () => {
   return (

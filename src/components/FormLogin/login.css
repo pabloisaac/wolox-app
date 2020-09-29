@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-image: url(../../assets//Backgrounds/Bg_Footer.png);
+  background-size: cover;
+  height: 700px;
+}
+.form-login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+
+.content-logo {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+}
+
+.content-form {
+  height: 50%;
+  width: 100%;
+  padding-top: 10%;
+}
+
+.flexbox-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.label {
+  width: 30%;
+  align-items: center;
+  display: flex;
+}
+
+.label > label {
+  font-size: 20px;
+}
+
+.input {
+  width: 70%;
+  align-items: center;
+  display: flex;
+}
+
+.input > input {
+  width: 100%;
+}
+
+.checkbox {
+  width: 100%;
+  display: flex;
+}
+
+.checkbox {
+  padding-top: 3%;
+}
+.checkbox > label {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox > input {
+  margin: 0px 5px 0px 0px;
+}
+
+.btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15%;
+}
+
+.btn-submit > input {
+  width: 80%;
+  border-radius: 30px;
+  padding: 9px;
+  border: 1px solid #00a7e8;
+  color: white;
+  font-size: 20px;
+  background-color: #00a7e8;
+}
+
+.btn-submit > input:hover {
+  width: 80%;
+  border-radius: 30px;
+  padding: 9px;
+  border: 1px solid #00a7e8;
+  color: #00a7e8;
+  font-size: 20px;
+  background-color: white;
+}
+
+.input > input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

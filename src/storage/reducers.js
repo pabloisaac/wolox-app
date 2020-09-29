@@ -5,7 +5,9 @@ export const AppContext = createContext({});
 export const initialState = {
   data: [],
   login: false,
-  _token: ""
+  _token: "",
+  redirectLogin: false,
+  redirectList: false
 };
 
 export const reducer = (state = {}, action) => {
@@ -26,6 +28,18 @@ export const reducer = (state = {}, action) => {
     case actionTypes.SET_TOKEN:
       response = Object.assign({}, state, {
         _token: action.data
+      });
+      return response;
+
+    case actionTypes.SET_REDIRECT_LOGIN:
+      response = Object.assign({}, state, {
+        redirectLogin: action.data
+      });
+      return response;
+
+    case actionTypes.SET_REDIRECT_LIST:
+      response = Object.assign({}, state, {
+        redirectList: action.data
       });
       return response;
 

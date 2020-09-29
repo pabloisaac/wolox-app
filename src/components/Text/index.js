@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 
-const Text = ({text, size}) => {
+const Text = ({text, size, color}) => {
   return (
     <Fragment>
-        <label style={{fontSize: size}}>{text}</label>
+        <label style={{fontSize: size, color:color}}>{text}</label>
     </Fragment>
   );
 };

@@ -88,10 +88,6 @@ nav > ul li ul {
 nav > ul li ul li > a {
     text-decoration: none;
 }
-[type="checkbox"],
-label {
-    display: none;
-}
 .button {
     border-radius: 30px;
     padding: 0px 75px;

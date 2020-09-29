@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react';
 import { initialState, reducer, AppContext } from './storage/reducers';
 import ReactDOM from 'react-dom';
-import AppContent from './App';
+import Router from './App';
 
 const App = () => {
     let [state, dispatch] = useReducer(reducer, initialState);
@@ -9,7 +9,7 @@ const App = () => {
   
       return (
         <AppContext.Provider value={value}>
-          <AppContent />
+          <Router />
         </AppContext.Provider>
       );
 }

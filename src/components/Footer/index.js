@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./footer.css";
 import ImgHero from "../../assets/ImgHero/Ic_ilustra_Hero.png";
 
 const Footer = () => {

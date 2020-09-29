@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./social.css";
 import IconTwitter from "../../assets/twitter.png";
 
 const Social = () => {
