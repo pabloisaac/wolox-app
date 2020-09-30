@@ -9,8 +9,8 @@ const Social = () => {
         <div className="title-social-twitter">
           <div className="title-woloxers">
             <p>
-              <span className="green-color"> 350 + </span>
-              <span className="blue-color">Woloxers</span>
+              <span className="green-color font-bold"> 350 + </span>
+              <span className="blue-color font-bold">Woloxers</span>
             </p>
           </div>
           <div className="flexbox-icon">
@@ -30,8 +30,8 @@ const Social = () => {
         <div className="title-social">
           <p>Trabajamos para </p>
           <p>
-            <span className="blue-color">convertir</span>
-            <span className="green-color"> ideas</span> en
+            <span className="blue-color font-semibold">convertir</span>
+            <span className="green-color font-semibold"> ideas</span> en
           </p>
           <p>productos </p>
         </div>

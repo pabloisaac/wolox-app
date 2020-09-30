@@ -69,7 +69,7 @@ const NavBar = () => {
                 </Link>
               </li>
               {(!sessionStorage.getItem("token") && !localStorage.getItem("user_data")) && (
-                <li>
+                <li className="btn-login-css">
                   <a href="/login" className="button">
                     Login
                   </a>

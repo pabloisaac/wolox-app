@@ -67,6 +67,7 @@ nav > ul > li > a {
     outline: none;
     width: 100%;
     text-decoration: none;
+    font-family: Montserrat-SemiBold;
 }
 nav > ul > li {
     float: left;
@@ -96,6 +97,17 @@ nav > ul li ul li > a {
     font-size: 16px;
 }
 
+.btn-login-css a:hover{
+    border-radius: 30px;
+    padding: 0px 75px;
+    border: 1px solid #00A7E8;;
+    color:white;
+    background-color:#00A7E8;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
 
 @media screen and (max-width: 768px) {

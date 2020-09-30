@@ -1,22 +1,68 @@
 @font-face {
-  font-family: "FiraSans";
+  font-family: "FiraSans-Regular";
   src: url(./assets/Fonts/Fira_Sans/FiraSans-Regular.ttf) format('truetype');
 }
 @font-face {
-  font-family: "FiraSans";
+  font-family: "FiraSans-Bold";
   src: url(./assets/Fonts/Fira_Sans/FiraSans-Bold.ttf) format('truetype');
 }
 @font-face {
-  font-family: "FiraSans";
+  font-family: "FiraSans-Medium";
   src: url(./assets/Fonts/Fira_Sans/FiraSans-Medium.ttf) format('truetype');
-
 }
 @font-face {
-  font-family: "FiraSans";
+  font-family: "FiraSans-Light";
   src: url(./assets/Fonts/Fira_Sans/FiraSans-Light.ttf) format('truetype');
-
 }
-
-.body {
-    font-family: FiraSans
+@font-face {
+  font-family: "FiraSans-SemiBold";
+  src: url(./assets/Fonts/Fira_Sans/FiraSans-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: "FiraSans-Thin";
+  src: url(./assets/Fonts/Fira_Sans/FiraSans-Thin.ttf) format('truetype');
+}
+@font-face {
+  font-family: "FiraSans-Black";
+  src: url(./assets/Fonts/Fira_Sans/FiraSans-Black.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(./assets/Fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(./assets/Fonts/Montserrat/Montserrat-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(./assets/Fonts/Montserrat/Montserrat-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url(./assets/Fonts/Montserrat/Montserrat-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(./assets/Fonts/Montserrat/Montserrat-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url(./assets/Fonts/Montserrat/Montserrat-Thin.ttf) format('truetype');
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url(./assets/Fonts/open_sans/OpenSans.woff) format('truetype');
+}
+@font-face {
+  font-family: "OpenSans-light";
+  src: url(./assets/Fonts/open_sans/OpenSans-light.woff) format('truetype');
+}
+@font-face {
+  font-family: "OpenSans-bold";
+  src: url(./assets/Fonts/open_sans/OpenSans-bold.woff) format('truetype');
+}
+@font-face {
+  font-family: "OpenSans-semibold";
+  src: url(./assets/Fonts/open_sans/OpenSans-semibold.woff) format('truetype');
 }

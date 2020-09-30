@@ -7,15 +7,16 @@ const Home = () => {
     <div className="flexbox-container-home">
       <div className="center-title">
         <div className="title-home">
-          <p>Bienvenido a tu </p>
-          <p>
-            <b>Entrevista Técnica</b> en
-          </p>
-          <p className="wolox-color"> Wolox</p>
+          <div className="font-ligth">Bienvenido a tu </div>
+          <div className="paragraph">
+            <div className="font-semibold"><p> Entrevista Técnica </p></div>
+            <div className="font-ligth"><p> en </p></div>
+          </div>
+          <div className="font-bold wolox-color"> Wolox</div>
         </div>
       </div>
       <div className="img-center">
-        <img src={ImgHero} className="img-hero" alt="imgHero"/>
+        <img src={ImgHero} className="img-hero" alt="imgHero" />
       </div>
     </div>
   );

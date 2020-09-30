@@ -6,7 +6,7 @@ const Requirements = () => {
     <div className="border-shadow">
       <div className="flexbox-container-requirements">
         <div className="center-title-requirements">
-          <div className="title-requirements">
+          <div className="title-requirements font-semibold">
             <p>Requerimientos</p>
           </div>
         </div>

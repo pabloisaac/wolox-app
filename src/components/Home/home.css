@@ -1,3 +1,6 @@
+body{
+  font-family: Montserrat-Regular;
+}
 .title-home {
     font-size: 44px;
     width: 100%;
@@ -11,6 +14,26 @@
 
 .wolox-color {
   color: #a3cc3a;
+}
+
+.font-ligth{
+  font-family: Montserrat-Light;
+}
+
+.font-semibold{
+  font-family: Montserrat-SemiBold;
+}
+
+.font-bold{
+  font-family: Montserrat-Bold;
+}
+
+.font-semibold p{
+  margin-right: 5px;
+}
+
+.paragraph{
+  display: flex;
 }
 
 .center-title {

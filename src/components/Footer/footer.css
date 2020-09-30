@@ -14,7 +14,7 @@
 }
 
 .title-footer {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .color-blue {
@@ -33,6 +33,7 @@
 
 .title-footer-text {
   margin-top: 10%;
+  margin-bottom: 2%;
   font-size: 20px;
 }
 

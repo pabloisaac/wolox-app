@@ -62,7 +62,7 @@ const Login = () => {
           {errorEmail && (
             <div className="msg-error">
               <Text
-                text="*Email incorrecto, debe colocar email con formato correcto, ej email@wolox.com"
+                text="*Email incorrecto, debe ingresar email con formato correcto, ej email@wolox.com"
                 size={10}
                 color="red"
               />
